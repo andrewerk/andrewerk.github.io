@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://andrewerk.github.io/andrewerk.github.io",
+  "homepage": "https://andrewerk.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
