@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel'
+import { Link } from "react-router-dom";
 import frontend from './../frontend.png'
 import recipes from './../recipes.png'
 import trybewallet from './../trybewallet.png'
@@ -14,6 +15,7 @@ function ProjectsCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
+        <a href="https://wallet-nine-bice.vercel.app/">
         <img
           className="d-block w-50 mx-auto d-block my-3"
           src={ trybewallet }
@@ -23,6 +25,7 @@ function ProjectsCarousel() {
           <h3>Trybe Wallet</h3>
           <p>Expenses records in differents currencies connected to XXX API</p>
         </Carousel.Caption>
+        </a>
       </Carousel.Item>
       <Carousel.Item>
         <img

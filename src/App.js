@@ -1,18 +1,19 @@
 import { Switch, Route } from 'react-router-dom';
-import Home from './pages/Home'
-import Projects from './pages/Home'
+import Home from './pages/Home';
+import Projects from './pages/Projects';
 
 function App() {
   return (
     <Switch>
-      <Route
+      <Route path="/projects" component={ Projects } />
+      {/* <Route
         path="/projects/:name"
         render={ (props) => (
           <Projects
             { ...props }
           />
           ) }
-      />
+      /> */}
       <Route path="/" component={ Home } />
 
 
