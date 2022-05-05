@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel'
-import { Link } from "react-router-dom";
 import frontend from './../frontend.png'
 import recipes from './../recipes.png'
 import trybewallet from './../trybewallet.png'

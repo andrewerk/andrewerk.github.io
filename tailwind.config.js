@@ -24,6 +24,7 @@ module.exports = {
       'tea-green': '#CAFFB9',
       'paradise-pink': '#EE4266',
       'baby-blue-eyes': '#91C4F2',
+      'dark-yellow':'#32936F'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
