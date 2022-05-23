@@ -14,7 +14,7 @@ import typescript from './../icons8-typescript.svg'
 function Home () {
   return (
       <div className="min-h-screen bg-charcoal">
-        <div class="overflow-hidden fixed top-0  w-full bg-dark-yellow flex justify-around z-10">
+        <div class="overflow-hidden fixed top-0  w-full bg-gray-light flex justify-around z-10">
           <a href="#resume" className="text-gray-light text-3xl hover:text-charcoal no-underline">Resume</a>
           <a href="#tech" className="text-gray-light text-3xl hover:text-charcoal no-underline">Technologies</a>
           <a href="#contact" className="text-gray-light text-3xl hover:text-charcoal no-underline hover:text-">Contact</a>
