@@ -53,7 +53,7 @@ function Home () {
         <section id="contact" className="text-4xl text-charcoal text-center font-bold bg-main h-1/2 pt-16 pb-20 flex-col content-center">
         <h1>Want to know more? Check my Linkedin, GitHub profile and CV!</h1>
         <section className="flex justify-around pt-16">
-            <a href="https://github.com/andrewerk">
+            <a href="https://www.linkedin.com/in/andre-werk/">
             <img src={ linkedinLogo } alt="Linkedin link" className="h-20" />
             </a>
             <a href="https://github.com/andrewerk">
@@ -62,7 +62,8 @@ function Home () {
             <a href="https://github.com/andrewerk">
             <img src={ cv } alt="CV download link" className="h-20" />  
             </a> 
-          </section>        
+          </section>
+          <h1 className="mt-10">Or write me on andrewerk1804@gmail.com</h1>       
           </section>
       </div>
   )
