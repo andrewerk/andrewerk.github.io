@@ -15,9 +15,9 @@ function Home () {
   return (
       <div className="min-h-screen bg-charcoal">
         <div class="overflow-hidden fixed top-0  w-full bg-charcoal flex justify-around z-10 border-b-4 border-main">
-          <a href="#resume" className="text-main text-3xl hover:text-yellow no-underline">Resume</a>
-          <a href="#tech" className="text-main text-3xl hover:text-yellow no-underline">Technologies</a>
-          <a href="#contact" className="text-main text-3xl hover:text-yellow no-underline hover:text-">Contact</a>
+          <a href="#resume" className="text-main text-xl md:text-3xl hover:text-yellow no-underline">Resume</a>
+          <a href="#tech" className="text-main text-xl md:text-3xl hover:text-yellow no-underline">Technologies</a>
+          <a href="#contact" className="text-main text-xl md:text-3xl hover:text-yellow no-underline hover:text-">Contact</a>
         </div>
         <section className="flex flex-col text-4xl text-charcoal font-bold bg-main h-1/2 md:pl-10 items-center lg:pl-20 xl:pl-40 pt-16 pb-10 lg:flex lg:flex-row lg:justify-between">
           <section className="pt-14">
@@ -27,8 +27,8 @@ function Home () {
           </section>
           <img src={ devIllustration } alt="Programming Illustration" className="lg:pr-56 h-48 md:h-72 lg:h-84" />
         </section>
-        <section className="text-main text-center flex flex-col font-bold bg-charcoal h-1/2  pb-20 lg:pr-40 lg:flex lg:flex-row lg:justify-between" id="resume">
-        <img src={ profile } alt="Profile" className="ml-48 mt-20 mr-20 h-60 w-60 rounded-full" />
+        <section className="text-main text-center flex flex-col items-center font-bold bg-charcoal h-1/2  pb-20 lg:pr-40 lg:flex lg:flex-row lg:justify-between" id="resume">
+        <img src={ profile } alt="Profile" className="md:ml-48 mt-20 md:mr-20 h-60 w-60 rounded-full" />
         <div>
           <h3 className="mt-28 text-4xl" >Would you like to get to know me?</h3>
           <p className="text-xl mt-10">After three years working with innovation at a technology-based institute , I’ve chosen to change my career path and start a bootcamp in web development, with the goal of impacting people's lives through innovation and technology. Problem solving is my passion and I'll be happy to work with you to build incredibles solutions!</p>
@@ -51,7 +51,7 @@ function Home () {
         <ProjectsCarousel />
         </section>
         <section id="contact" className="text-4xl text-charcoal text-center font-bold bg-main h-1/2 pt-16 pb-20 flex-col content-center">
-        <h1>Want to know more? I invite you to check my CV, my Linkedin and GitHub profile</h1>
+        <h1>Want to know more? Check my Linkedin, GitHub profile and CV!</h1>
         <section className="flex justify-around pt-16">
             <a href="https://github.com/andrewerk">
             <img src={ linkedinLogo } alt="Linkedin link" className="h-20" />

@@ -16,7 +16,7 @@ function ProjectsCarousel() {
       <Carousel.Item className="flex flex-col">
         <a href="https://wallet-nine-bice.vercel.app/">
         <img
-          className="d-block h-80 mx-auto d-block my-3"
+          className="h-20 d-block md:h-80 mx-auto d-block my-3"
           src={ trybewallet }
           alt="First slide"
         />
@@ -28,7 +28,7 @@ function ProjectsCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="h-80 d-block mx-auto d-block  my-3"
+          className="h-20 md:h-80 d-block mx-auto d-block  my-3"
           src={ frontend }
           alt="Second slide"
         />
@@ -40,7 +40,7 @@ function ProjectsCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block h-80 mx-auto d-block  my-3"
+          className="h-20 d-block md:h-80 mx-auto d-block  my-3"
           src={ recipes }
           alt="Third slide"
         />
