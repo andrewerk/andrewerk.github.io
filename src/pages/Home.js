@@ -14,12 +14,12 @@ import typescript from './../icons8-typescript.svg'
 function Home () {
   return (
       <div className="min-h-screen bg-charcoal">
-        <div class="overflow-hidden fixed top-0  w-full bg-gray-light flex justify-around z-10">
-          <a href="#resume" className="text-gray-light text-3xl hover:text-charcoal no-underline">Resume</a>
-          <a href="#tech" className="text-gray-light text-3xl hover:text-charcoal no-underline">Technologies</a>
-          <a href="#contact" className="text-gray-light text-3xl hover:text-charcoal no-underline hover:text-">Contact</a>
+        <div class="overflow-hidden fixed top-0  w-full bg-charcoal flex justify-around z-10 border-b-4 border-main">
+          <a href="#resume" className="text-main text-3xl hover:text-yellow no-underline">Resume</a>
+          <a href="#tech" className="text-main text-3xl hover:text-yellow no-underline">Technologies</a>
+          <a href="#contact" className="text-main text-3xl hover:text-yellow no-underline hover:text-">Contact</a>
         </div>
-        <section className="text-4xl text-charcoal font-bold bg-gray-light h-1/2 pl-40 pt-16 pb-10 flex justify-between">
+        <section className="text-4xl text-charcoal font-bold bg-main h-1/2 pl-40 pt-16 pb-10 flex justify-between">
           <section className="pt-28">
           <h3>Hi there!</h3>
           <h1>My name is Andre Werk</h1>
@@ -27,17 +27,16 @@ function Home () {
           </section>
           <img src={ devIllustration } alt="Programming Illustration" className="pr-56 h-96" />
         </section>
-        <section className="text-gray-light font-bold bg-charcoal h-1/2 pr-40 pb-20 flex justify-between" id="resume">
-        <img src={ profile } alt="Profile" className="ml-48 mt-20 mr-20 h-1/6 rounded-full" />
+        <section className="text-main text-center font-bold bg-charcoal h-1/2  pb-20 flex flex-col  lg:pr-40 lg:flex lg:flex-row lg:justify-between" id="resume">
+        <img src={ profile } alt="Profile" className="ml-48 mt-20 mr-20 h-60 w-60 rounded-full" />
         <div>
           <h3 className="mt-28 text-4xl" >Would you like to get to know me?</h3>
-          <p className="text-2xl mt-20">My goal is to improve peoples lives through technology. Problem solving is my passion and I'll be happy to work with you to build incredibles solutions!</p>
-          <p className="text-2xl mt-20">I am Brazilian, graduated in mechanical engineering and I've worked as a Data Analyst in the largest startup acceleration program in the country before deciding to be a Web Developer. During my career, I had the opportunity to live in Israel and Germany, to live and work with people from different countries and backgrounds.</p>
+          <p className="text-xl mt-10">After three years working with innovation at a technology-based institute , I’ve chosen to change my career path and start a bootcamp in web development, with the goal of impacting people's lives through innovation and technology. Problem solving is my passion and I'll be happy to work with you to build incredibles solutions!</p>
         </div>
         </section>
-        <section id="tech" className="text-4xl text-charcoal text-center font-bold bg-gray-light h-1/2 pt-16 pb-20 flex-col justify-between">
+        <section id="tech" className="text-4xl text-charcoal text-center font-bold bg-main h-1/2 pt-16 pb-20 flex-col justify-between">
         <h1 >What do I work with?</h1>
-        <section className="flex justify-around pt-16">
+        <section className="flex flex-col md:flex md:flex-row justify-around pt-16">
             <img src={ javascript } alt="JavaScript Logo" className="h-32" />
             <img src={ typescript } alt="typescript Logo" className="h-32" />
             <img src={ node } alt="Node Logo" className="h-32" />
@@ -47,11 +46,11 @@ function Home () {
             
           </section>        
           </section>
-        <section className="bg-charcoal text-4xl text-gray-light text-center pt-16 pb-20">
+        <section className="bg-charcoal text-4xl text-main text-center pt-16 pb-20">
           <h1>What have I done so far?</h1>
         <ProjectsCarousel />
         </section>
-        <section id="contact" className="text-4xl text-charcoal text-center font-bold bg-gray-light h-1/2 pt-16 pb-20 flex-col content-center">
+        <section id="contact" className="text-4xl text-charcoal text-center font-bold bg-main h-1/2 pt-16 pb-20 flex-col content-center">
         <h1>Want to know more? I invite you to check my CV, my Linkedin and GitHub profile</h1>
         <section className="flex justify-around pt-16">
             <a href="https://github.com/andrewerk">
