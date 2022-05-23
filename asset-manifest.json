@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.29704f99.css",
-    "main.js": "/static/js/main.a748646c.js",
+    "main.css": "/static/css/main.58e55c6b.css",
+    "main.js": "/static/js/main.0638c824.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/recipe-app.webp": "/static/media/recipe-app.218e45d12ac138b23f87.webp",
     "static/media/2048px-Octicons-mark-github.svg.png": "/static/media/2048px-Octicons-mark-github.svg.1c95b85d86a7c25b6f3c.png",
@@ -16,12 +16,12 @@
     "static/media/icons8-javascript-96.svg": "/static/media/icons8-javascript-96.19600440c8c62e3de974e2bba991871f.svg",
     "index.html": "/index.html",
     "static/media/icons8-typescript.svg": "/static/media/icons8-typescript.ced98752566ac4b3a366e8e41677cd67.svg",
-    "main.29704f99.css.map": "/static/css/main.29704f99.css.map",
-    "main.a748646c.js.map": "/static/js/main.a748646c.js.map",
+    "main.58e55c6b.css.map": "/static/css/main.58e55c6b.css.map",
+    "main.0638c824.js.map": "/static/js/main.0638c824.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29704f99.css",
-    "static/js/main.a748646c.js"
+    "static/css/main.58e55c6b.css",
+    "static/js/main.0638c824.js"
   ]
 }
