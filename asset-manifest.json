@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.85267a89.css",
-    "main.js": "/static/js/main.ef5ebabf.js",
+    "main.css": "/static/css/main.29704f99.css",
+    "main.js": "/static/js/main.a748646c.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/recipe-app.webp": "/static/media/recipe-app.218e45d12ac138b23f87.webp",
     "static/media/2048px-Octicons-mark-github.svg.png": "/static/media/2048px-Octicons-mark-github.svg.1c95b85d86a7c25b6f3c.png",
     "static/media/trybewallet.png": "/static/media/trybewallet.736ac7991a8ae2b5f896.png",
-    "static/media/recipes.png": "/static/media/recipes.4e4c9fa0eac495e7fd0b.png",
     "static/media/frontend.png": "/static/media/frontend.cffb5f7f34b27539e417.png",
     "static/media/linkedin.jpeg": "/static/media/linkedin.946d9607b6008b81f3d1.jpeg",
     "static/media/undraw_programming_re_kg9v.svg": "/static/media/undraw_programming_re_kg9v.b68831384ce440efe3af7aa8d6660863.svg",
@@ -16,12 +16,12 @@
     "static/media/icons8-javascript-96.svg": "/static/media/icons8-javascript-96.19600440c8c62e3de974e2bba991871f.svg",
     "index.html": "/index.html",
     "static/media/icons8-typescript.svg": "/static/media/icons8-typescript.ced98752566ac4b3a366e8e41677cd67.svg",
-    "main.85267a89.css.map": "/static/css/main.85267a89.css.map",
-    "main.ef5ebabf.js.map": "/static/js/main.ef5ebabf.js.map",
+    "main.29704f99.css.map": "/static/css/main.29704f99.css.map",
+    "main.a748646c.js.map": "/static/js/main.a748646c.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85267a89.css",
-    "static/js/main.ef5ebabf.js"
+    "static/css/main.29704f99.css",
+    "static/js/main.a748646c.js"
   ]
 }
