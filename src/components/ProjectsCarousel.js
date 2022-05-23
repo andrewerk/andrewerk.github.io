@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel'
 import frontend from './../frontend.png'
-import recipes from './../recipes.png'
+import recipes from './../recipe-app.webp'
 import trybewallet from './../trybewallet.png'
 
 function ProjectsCarousel() {
@@ -13,22 +13,22 @@ function ProjectsCarousel() {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
+      <Carousel.Item className="flex flex-col">
         <a href="https://wallet-nine-bice.vercel.app/">
         <img
-          className="d-block w-50 mx-auto d-block my-3"
+          className="d-block h-80 mx-auto d-block my-3"
           src={ trybewallet }
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Trybe Wallet</h3>
-          <p>Expenses records in differents currencies connected to XXX API</p>
+          <h3 className="text-gray-dark">Trybe Wallet</h3>
+          <p className="text-gray-dark">Expenses records in differents currencies from a API</p>
         </Carousel.Caption>
         </a>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-45 mx-auto d-block  my-3"
+          className="h-80 d-block mx-auto d-block  my-3"
           src={ frontend }
           alt="Second slide"
         />
@@ -40,7 +40,7 @@ function ProjectsCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-50 mx-auto d-block  my-3"
+          className="d-block h-80 mx-auto d-block  my-3"
           src={ recipes }
           alt="Third slide"
         />

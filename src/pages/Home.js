@@ -19,15 +19,15 @@ function Home () {
           <a href="#tech" className="text-main text-3xl hover:text-yellow no-underline">Technologies</a>
           <a href="#contact" className="text-main text-3xl hover:text-yellow no-underline hover:text-">Contact</a>
         </div>
-        <section className="text-4xl text-charcoal font-bold bg-main h-1/2 pl-40 pt-16 pb-10 flex justify-between">
-          <section className="pt-28">
+        <section className="flex flex-col text-4xl text-charcoal font-bold bg-main h-1/2 md:pl-10 items-center lg:pl-20 xl:pl-40 pt-16 pb-10 lg:flex lg:flex-row lg:justify-between">
+          <section className="pt-14">
           <h3>Hi there!</h3>
           <h1>My name is Andre Werk</h1>
           <h1>I develop solutions for the Web!</h1>
           </section>
-          <img src={ devIllustration } alt="Programming Illustration" className="pr-56 h-96" />
+          <img src={ devIllustration } alt="Programming Illustration" className="lg:pr-56 h-48 md:h-72 lg:h-84" />
         </section>
-        <section className="text-main text-center font-bold bg-charcoal h-1/2  pb-20 flex flex-col  lg:pr-40 lg:flex lg:flex-row lg:justify-between" id="resume">
+        <section className="text-main text-center flex flex-col font-bold bg-charcoal h-1/2  pb-20 lg:pr-40 lg:flex lg:flex-row lg:justify-between" id="resume">
         <img src={ profile } alt="Profile" className="ml-48 mt-20 mr-20 h-60 w-60 rounded-full" />
         <div>
           <h3 className="mt-28 text-4xl" >Would you like to get to know me?</h3>
@@ -54,13 +54,13 @@ function Home () {
         <h1>Want to know more? I invite you to check my CV, my Linkedin and GitHub profile</h1>
         <section className="flex justify-around pt-16">
             <a href="https://github.com/andrewerk">
-            <img src={ linkedinLogo } alt="Linkedin link" className="h-40" />
+            <img src={ linkedinLogo } alt="Linkedin link" className="h-20" />
             </a>
             <a href="https://github.com/andrewerk">
-            <img src={ github } alt="GitHub link" className="h-40" />
+            <img src={ github } alt="GitHub link" className="h-20" />
             </a>
             <a href="https://github.com/andrewerk">
-            <img src={ cv } alt="CV download link" className="h-40" />  
+            <img src={ cv } alt="CV download link" className="h-20" />  
             </a> 
           </section>        
           </section>
