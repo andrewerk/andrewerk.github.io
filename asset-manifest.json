@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58e55c6b.css",
-    "main.js": "/static/js/main.b94a11da.js",
+    "main.js": "/static/js/main.3707bbc9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/recipe-app.webp": "/static/media/recipe-app.218e45d12ac138b23f87.webp",
     "static/media/2048px-Octicons-mark-github.svg.png": "/static/media/2048px-Octicons-mark-github.svg.1c95b85d86a7c25b6f3c.png",
@@ -16,11 +16,11 @@
     "index.html": "/index.html",
     "static/media/icons8-typescript.svg": "/static/media/icons8-typescript.ced98752566ac4b3a366e8e41677cd67.svg",
     "main.58e55c6b.css.map": "/static/css/main.58e55c6b.css.map",
-    "main.b94a11da.js.map": "/static/js/main.b94a11da.js.map",
+    "main.3707bbc9.js.map": "/static/js/main.3707bbc9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58e55c6b.css",
-    "static/js/main.b94a11da.js"
+    "static/js/main.3707bbc9.js"
   ]
 }
