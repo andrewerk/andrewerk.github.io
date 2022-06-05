@@ -23,7 +23,7 @@ function Home () {
           <section className="pt-14">
           <h3>Hi there!</h3>
           <h1>My name is Andre Werk</h1>
-          <h1>I develop solutions for the Web!</h1>
+          <h1>I'am a Software Developer!</h1>
           </section>
           <img src={ devIllustration } alt="Programming Illustration" className="lg:pr-56 h-48 md:h-72 lg:h-84" />
         </section>
@@ -31,7 +31,8 @@ function Home () {
         <img src={ profile } alt="Profile" className="md:ml-48 mt-20 md:mr-20 h-60 w-60 rounded-full" />
         <div>
           <h3 className="mt-28 text-4xl" >Would you like to get to know me?</h3>
-          <p className="text-xl mt-10">After three years working with innovation at a technology-based institute , I’ve chosen to change my career path and start a bootcamp in web development, with the goal of impacting people's lives through innovation and technology. Problem solving is my passion and I'll be happy to work with you to build incredibles solutions!</p>
+          <p className="text-xl mt-10">After three years of working with innovation at a technology-based institute, I’ve chosen to change my career path and start a Bootcamp in web development, intending to impact people's lives through innovation and technology. Problem-solving is my passion and I'll be happy to work with you to build incredible solutions!</p>
+          <p className="text-xl mt-10">I'm currently ending a one-year full-time Bootcamp in software development, in which I have already developed more than 25 projects with javascript, Typescript, React, Node.js, Docker, relational databases, algorithms, RESTful APIs, software architecture, and unit tests.</p>
         </div>
         </section>
         <section id="tech" className="text-4xl text-charcoal text-center font-bold bg-main h-1/2 pt-16 pb-20 flex-col justify-between">
