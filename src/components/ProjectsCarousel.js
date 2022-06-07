@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Carousel from 'react-bootstrap/Carousel'
 import recipes from './../recipe-app.webp'
 import trybewallet from './../trybewallet.png'
+import shop from './../shop.png';
 
 function ProjectsCarousel() {
   const [index, setIndex] = useState(0);
@@ -13,11 +14,24 @@ function ProjectsCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item className="flex flex-col">
+        <a href="https://github.com/andrewerk/store-manager">
+        <img
+          className="h-20 d-block md:h-80 mx-auto d-block my-3"
+          src={ shop }
+          alt="First slide"
+        />
+        <Carousel.Caption className="mt-20 text-xl">
+          <h3>Store Manager</h3>
+          <p>RESTful API with endpoints to register and update sales and inventory changes.</p>
+        </Carousel.Caption>
+        </a>
+      </Carousel.Item>      
+      <Carousel.Item className="flex flex-col">
         <a href="https://wallet-nine-bice.vercel.app/">
         <img
           className="h-20 d-block md:h-80 mx-auto d-block my-3"
           src={ trybewallet }
-          alt="First slide"
+          alt="Second slide"
         />
         <Carousel.Caption className="mt-20 text-xl">
           <h3 className="text-gray-dark">Expenses Wallet</h3>
@@ -41,6 +55,7 @@ function ProjectsCarousel() {
         </Carousel.Caption>
         </a>
       </Carousel.Item>
+
     </Carousel>
   );
 }
