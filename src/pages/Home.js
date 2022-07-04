@@ -60,7 +60,7 @@ function Home () {
             <a href="https://github.com/andrewerk">
             <img src={ github } alt="GitHub link" className="h-20" />
             </a>
-            <a href="https://drive.google.com/file/d/11EjqUv03Ipe7tQcAK3g7kZLV_-k3z5EO/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1g2gZ6XTa-C2HtNhoetoee3aliMFkHhmS/view?usp=sharing">
             <img src={ cv } alt="CV download link" className="h-20" />  
             </a> 
           </section>
