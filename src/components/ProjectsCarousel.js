@@ -4,6 +4,7 @@ import recipes from './../recipe-app.webp'
 import trybewallet from './../trybewallet.png'
 import shop from './../shop.png';
 import blogsApi from './../blogs-api.png'
+import investmentsApp from './../investments-app.png'
 
 function ProjectsCarousel() {
   const [index, setIndex] = useState(0);
@@ -14,6 +15,20 @@ function ProjectsCarousel() {
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
+
+    <Carousel.Item className="flex flex-col">
+        <a href="https://github.com/andrewerk/investments-app">
+        <img
+          className="h-20 d-block md:h-80 mx-auto d-block my-3"
+          src={ investmentsApp }
+          alt="slide in position 0"
+        />
+        <Carousel.Caption className="mt-20 text-xl">
+          <h3 className="text-gray-dark">Investments APP</h3>
+          <p className="text-gray-dark">RESTful API working as a investments application back-end, using Node.js, Express, JWT authentication, bcrypt, Sequelize with Postgres, and docs with Open API Specification</p>
+        </Carousel.Caption>
+        </a>
+      </Carousel.Item> 
         <Carousel.Item className="flex flex-col">
         <a href="https://github.com/andrewerk/blogs-api">
         <img
